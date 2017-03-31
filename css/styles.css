@@ -1,3 +1,21 @@
 body {
-  background-color: #DAFFEF;
+  /*background-color: #DAFFEF;*/
+  font-family: 'Lora', serif;
+  background-image: url(img/coolwood.jpg);
+  color: #FFAA00;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: black;
+}
+
+#numberInput {
+  color: black;
+}
+
+#result {
+  font-family: 'Space Mono', monospace;
+  font-size: 16px;
 }
