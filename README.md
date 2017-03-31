@@ -20,8 +20,9 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
+_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+
 ## Specs
-Specs
 
 | Behavior | input | output |
 | -------- | :---: | :----: |
@@ -30,10 +31,6 @@ Specs
 | When a number is divisible by 5 , the program lists it as "pong" in output | 5 | 1, 2, ping, 4, pong	|
 | When a number is divisible by 15 , the program lists it as "pingpong" in output | 15 | 1, 2, ping, 4, pong,... 14, pingpong	|
 
-
-
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
 
 ## Support and contact details
 
