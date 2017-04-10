@@ -1,41 +1,27 @@
 // --- Business Logic ---
-var inputtedNumbers = [];
+var list = []
 var pingPong = function(userInput) {
   for ( var index = 1; index <= userInput; index += 1) {
-    number = index;
-
       if (index % 15 === 0) {
-
-        number = "ping-pong";
-
+        output = "ping-pong";
       } else if (index % 5 === 0) {
-
-           number = "pong";
-
+           output = "pong";
       } else if (index % 3 === 0) {
-
-          number = "ping";
-
+          output = "ping";
+      } else {
+        output = index;
       }
-
-        inputtedNumbers.push(number);
-
+      list.push(output);
   };
 }
-
-
-
-
 // --- User Logic ---
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($("input#numberInput").val());
     pingPong(userInput);
-    inputtedNumbers.forEach(function(number) {
-        $("#result").append("<li>" + number + "</li>");
+    list.forEach(function(output) {
+        $("#result").append(output + "<br>");
     })
-});
-
-
+  });
 });
